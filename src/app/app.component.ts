@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FormBuilder } from '@angular/forms';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export default class AppComponent {
   title = 'Quotes';
+
+
+  // getValue(val){
+  //   console.warn(val)
+  //   this.displayVal=val
+  // }
 }
