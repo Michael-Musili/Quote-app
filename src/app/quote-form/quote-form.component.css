@@ -1,0 +1,27 @@
+
+form{
+    background-color: navy;
+    height: 400px;
+    width: 380px;
+    
+
+    
+}
+#head{
+    text-align: center;
+}
+.h3{
+    margin-left: 50px;
+    font-family: 'Handlee', cursive;
+    color: blue;
+}
+.input-group{
+    width: 300px;
+    margin-left: 10px;
+}
+#quote{
+    height: 70px;
+}
+#btn5{
+    margin-left: 10px;
+}

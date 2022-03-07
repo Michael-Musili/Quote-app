@@ -1,27 +1,2 @@
-<h1>Quote Generator</h1>
-  
-  <form #form="ngForm">
-
-        
-
-    <div class="form-group">
-    
-      <label for="author" id="author">Author</label> <br>
-      <input type="text" ngModel required class="form-control" name="author" id="author" placeholder="enter Author">
-    </div> <br><br>
-         
-    <div class="form-group">
-    
-      <label for="quote">Add Quote</label> <br>
-      <textarea class="form-control"  ngModel  id="description"name="quote" rows="4" required placeholder="quote"></textarea>
-    </div> <br> <br>
-    <div class="form-group">
-        <label for="complete" id="name">Name</label> <br>
-        <input type='text' ngModel id="name" name="name" required placeholder="name">
-    </div><br>
-    <button onclick="">Enter</button>
-
-  </form> <br> <br>
-  
- {{form.value| json}} 
-    
+<router-outlet></router-outlet>
+<app-quote></app-quote>
